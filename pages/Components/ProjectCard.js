@@ -1,6 +1,7 @@
 /** @format */
 
 import React from 'react';
+import Image from 'next/image';
 
 function Project({ image, description, liveCode, gitCode, title }) {
   return (

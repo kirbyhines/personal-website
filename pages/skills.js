@@ -12,11 +12,10 @@ import {
   faCss3,
   faJs,
 } from '@fortawesome/free-brands-svg-icons';
-import { useRouter } from 'next/router';
+import Image from 'next/image';
 import Logo from './Components/Logo';
 
 function skills() {
-  const router = useRouter();
   return (
     <div className="h-screen w-screen">
       {/* logo */}
@@ -48,9 +47,10 @@ function skills() {
           </h1>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <img
-            className="h-[50px]"
-            src="./icons/adobe-photoshop-logo-png-icon-492439.png"
+          <Image
+            height={50}
+            width={50}
+            src="/icons/adobe-photoshop-logo-png-icon-492439.png"
             alt=""
           />
           <h1 className=" text-2xl font-extralight mt-1 tracking-widest">

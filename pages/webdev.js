@@ -28,7 +28,7 @@ function Hello() {
       {/* Projects */}
       <div className=" flex py-5  w-screen overflow-y-hidden scrollbar-hide overflow-x-scroll lg:w-[80vw] lg:h-[90vh] lg:grid lg:grid-cols-2 lg:place-items-center">
         <ProjectCard
-          image={'./web-projects/preview.jpg'}
+          image={'/web-projects/preview.jpg'}
           title={'In Progress'}
           description={
             'E-commerce site from FrontEnd Mentor. Next steps are building out each of the product pages.'
@@ -38,7 +38,7 @@ function Hello() {
         />
 
         <ProjectCard
-          image={'./web-projects/netflix-clone.png'}
+          image={'/web-projects/netflix-clone.png'}
           title={'Netflix Clone'}
           description={
             <React.Fragment>
@@ -54,7 +54,7 @@ function Hello() {
         />
 
         <ProjectCard
-          image={'./web-projects/Clock.png'}
+          image={'/web-projects/Clock.png'}
           title={'Javascript Clock'}
           description={
             'Simple clock with the ability to toggle light and dark mode.'
@@ -64,7 +64,7 @@ function Hello() {
         />
 
         <ProjectCard
-          image={'./web-projects/huddle.png'}
+          image={'/web-projects/huddle.png'}
           title={'Huddle Landing Page'}
           description={
             'Landing page challenge from Frontend Mentor using HTML and CSS only.scrition'

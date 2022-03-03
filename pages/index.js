@@ -29,7 +29,7 @@ function App() {
       <Logo />
       <div className="flex flex-col justify-center items-center md:mx-auto md:w-1/2">
         <h1 className="mt-24 tracking-wide text-5xl font-extralight mb-5">
-          Hello I'm Kirby
+          Hello I&apos;m Kirby
         </h1>
         <p className=" mx-3  tracking-widest font-extralight mb-5 text-center">
           Commercial Photographer turned Front End Developer
