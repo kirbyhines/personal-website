@@ -5,7 +5,7 @@ import MotionCard from './MotionCard';
 
 function MotionGallery() {
   return (
-    <div className="flex flex-col justify-center items-center overflow-x-auto scrollbar-hide mx-5 h-[80vh] w-screen">
+    <div className=" flex flex-col items-center  overflow-x-auto scrollbar-hide  w-screen justify-center">
       <div className="grid grid-rows-1 grid-cols-4 gap-5 w-max px-5 lg:px-20  mx-auto mb-4">
         <MotionCard video="https://www.youtube.com/embed/zEtr3eQs-H4" />
         <MotionCard video="https://www.youtube.com/embed/CRoskAZXspE" />

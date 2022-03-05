@@ -5,8 +5,8 @@ import ImageCard from './ImageCard';
 
 function ECommGallery() {
   return (
-    <div className="block flex-col items-center  overflow-x-auto scrollbar-hide mx-5  w-screen">
-      <div className=" grid grid-cols-5 gap-5 w-max px-5 mx-auto mb-4">
+    <div className=" flex flex-col items-center  overflow-x-auto scrollbar-hide  w-screen justify-center">
+      <div className="flex gap-5 w-max px-5 mx-auto mb-4 lg:grid lg:grid-cols-5 ">
         <ImageCard image="/Photos/ecomm/83835_01_main.jpg" />
         <ImageCard image="/Photos/ecomm/88928_01_main.jpg" />
         <ImageCard image="/Photos/ecomm/148127_01_main.jpg" />

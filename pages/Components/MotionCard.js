@@ -4,9 +4,9 @@ import React from 'react';
 
 function MotionCard({ video }) {
   return (
-    <div className="w-[70vw] h-[400px] md:h-[500px] lg:h-[600px]">
+    <div className="w-[70vw] h-[300px] md:h-[500px] lg:h-[600px]">
       <iframe
-        className="w-[70vw] h-[400px] md:h-[500px] lg:h-[600px] object-fill rounded-xl shadow-md"
+        className="w-[70vw] h-[300px] md:h-[500px] lg:h-[600px] object-fill rounded-xl shadow-md"
         src={video}
         title="YouTube video player"
       ></iframe>

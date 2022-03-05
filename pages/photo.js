@@ -14,8 +14,8 @@ function Photo() {
   const [active, setActive] = useState('Latest');
 
   return (
-    <div className=" flex flex-col justify-center items-center  mt-20">
-      <div className="flex flex-row mb-3 font-semibold text-sm  whitespace-nowrap">
+    <div className=" flex flex-col items-center justify-center h-screen w-screen ">
+      <div className="flex flex-row mb-3 font-semibold text-xs  whitespace-nowrap  justify-center ">
         <h2
           className="px-2 cursor-pointer hover:text-blue-500"
           onClick={() => setActive('Latest')}

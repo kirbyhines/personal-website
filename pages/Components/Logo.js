@@ -9,8 +9,8 @@ function Logo() {
   return (
     <div className="absolute top-3 left-5 cursor-pointer">
       <Image
-        width={64}
-        height={64}
+        width={50}
+        height={50}
         src="/icons/logo.jpg"
         alt=" "
         onClick={() => router.push('/')}
