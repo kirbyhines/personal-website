@@ -25,7 +25,7 @@ function App() {
   const router = useRouter();
 
   return (
-    <div className="  h-screen flex flex-col items-center  w-screen my-auto md:flex-row">
+    <div className="  h-screen flex flex-col items-center justify-center  w-screen my-auto md:flex-row">
       <Logo />
       <div className="flex flex-col justify-center items-center md:mx-auto md:w-1/2">
         <h1 className="mt-24 tracking-wide text-5xl font-extralight mb-5">
@@ -57,7 +57,7 @@ function App() {
 
       {/* image */}
 
-      <div className=" mx-auto justify-center items-center flex flex-col w-[270px] h-[380px] lg:w-[430px]  ">
+      <div className="hidden mx-auto justify-center items-center md:flex flex-col w-[270px] h-[380px] lg:w-[430px]  ">
         <img
           src="/intro-images/VLJ02717.JPG"
           alt=" "

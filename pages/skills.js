@@ -17,11 +17,11 @@ import Logo from './Components/Logo';
 
 function skills() {
   return (
-    <div className="h-screen w-screen">
+    <div className=" flex flex-col items-center  overflow-x-auto scrollbar-hide  w-screen justify-center h-screen">
       {/* logo */}
       <Logo />
 
-      <div className="flex flex-col justify-around items-center h-[90%] md:h-screen w-[80%] mx-auto md:flex-row  ">
+      <div className="grid grid-cols-2 gap-5 w-max px-5 mx-auto mb-4  md:grid-cols-5 ">
         <div className="flex flex-col justify-center items-center">
           <FontAwesomeIcon icon={faHtml5} className="h-[50px]" />
           <h1 className=" text-2xl font-extralight mt- tracking-widest">
