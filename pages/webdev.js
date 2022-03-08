@@ -38,8 +38,8 @@ function Hello() {
               <span className="font-bold underline">TailwindCSS</span>.
             </React.Fragment>
           }
-          liveCode={'https://kirbyhines.github.io/light-dark-clock/'}
-          gitCode={'https://github.com/kirbyhines/light-dark-clock'}
+          liveCode={'https://audiophile-frontend-mentor.vercel.app/'}
+          gitCode={'https://github.com/kirbyhines/audiophile-FrontendMentor'}
         />
 
         <ProjectCard
