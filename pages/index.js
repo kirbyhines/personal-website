@@ -32,7 +32,7 @@ function App() {
           Hello I&apos;m Kirby
         </h1>
         <p className=" mx-3  tracking-widest font-extralight mb-5 text-center">
-          Commercial Photographer turned Front End Developer
+          Content Creator/Front End Developer
         </p>
         <h2 className="font-light text-xl mb-5 mx-2 tracking-wide">
           Which portfolio would you like to see?
